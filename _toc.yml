@@ -1,0 +1,15 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: 01-intro-python/index    
+- file: 02-importing-data/index    
+- file: 03-exploring-data/index   
+- file: 04-cleaning-data/index    
+- file: 05-transform-data/index   
+- file: 06-eda/index   
+
